@@ -1,0 +1,5 @@
+numpy==1.21.6
+onnx==1.14.0
+onnxsim==0.4.33
+torch==2.0.0+cu117
+torchvision==0.15.1+cu117
