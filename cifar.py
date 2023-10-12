@@ -359,7 +359,7 @@ def main():
     quantized_model.eval()
 
 	# quantized model export to onnx
-    onnx_path = quantized_model_filename.replace('.pt', '.onnx')
+    onnx_path = quantized_model_filepath.replace('.pt', '.onnx')
     img = torch.rand(1, 3, 32, 32).float()
     torch.onnx.export(quantized_model, img, onnx_path, input_names=['input'], output_names=['output'], opset_version=13)
 
