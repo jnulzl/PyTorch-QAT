@@ -33,7 +33,7 @@
 
 ```shell
 git clone https://github.com/jnulzl/PyTorch-QAT
-cd https://github.com/jnulzl/PyTorch-QAT
+cd PyTorch-QAT
 pip install -r requirements.txt 
 cd data
 chmod a+x download_data.sh
